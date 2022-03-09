@@ -1,0 +1,37 @@
+.Circle {
+  border-radius: 1000px;
+  width: 18px;
+  height: 18px;
+  opacity: 10%;
+  background-color: #fe3b1f;
+  display: inline-block;
+}
+
+.RedCircle {
+  opacity: 100%;
+}
+
+.NavBarButtonRight {
+  transform: rotate(180deg);
+}
+
+.NavBarMain {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.NavBarArrow{
+    width: 20px;
+    height: 20px;
+}
+
+
+.NavBarMain button {
+    padding: 0 7.5px;
+    border: none;
+    
+}

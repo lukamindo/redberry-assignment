@@ -1,8 +1,11 @@
 .Heading {
-    font-family: 'Rowdies', cursive;
-    color: #FE3B1F;
-    font-size: 64px;
-    line-height: 79px;
-    text-align: center;
-    font-weight: 400;
+  font-family: Rowdies;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+  color: #fe3b1f;
+
 }

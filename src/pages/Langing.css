@@ -1,0 +1,59 @@
+.Langing {
+  background-image: url("../images/stars.png");
+  background-color: black;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+}
+
+
+.StartLink {
+  width: 395px;
+  height: 79px;
+  border-radius: 50px;
+  background: #fe3b1f;
+  border: none;
+
+ 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ApplicationsLink {
+  width: 338px;
+  height: 66px;
+
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration-line: underline;
+  margin-top: 22px;
+
+  color: #ffffff;
+}
+
+.LangingTitle {
+  width: 1090px;
+  height: 212px;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  justify-content: center;
+}

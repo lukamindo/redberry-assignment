@@ -1,0 +1,19 @@
+.Thanks {
+  background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.ThanksHeading {
+  width: 1066px;
+  height: 191px;
+
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  justify-content: center;
+}

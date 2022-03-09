@@ -1,6 +1,7 @@
 .Page-dark {
   background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
   color: #ffffff;
+  
 }
 
 .Page-light {
@@ -10,9 +11,13 @@
 
 .Page {
   width: 50%;
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   line-height: 2;
-  padding: 50px 40px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

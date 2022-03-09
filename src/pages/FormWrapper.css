@@ -1,0 +1,13 @@
+.FormWrapper {
+  display: flex;
+}
+
+.FormWrapperDarkHeading {
+  width: 716px;
+  height: 94px;
+}
+
+.FormWrapperLightHeading {
+  width: 716px;
+  height: 128px;
+}

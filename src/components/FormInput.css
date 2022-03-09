@@ -1,0 +1,22 @@
+.FormInputBox {
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+
+  width: 455px;
+  height: 54px;
+
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #454545;
+
+  padding-left: 57px;
+}

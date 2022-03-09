@@ -1,0 +1,16 @@
+.InsightsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+
+.DevTalkTopicBox {
+  width: 535px;
+  height: 122px;
+}
+
+.SomeThingSpecialBox {
+  width: 535px;
+  height: 89px;
+}

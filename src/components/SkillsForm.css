@@ -1,0 +1,53 @@
+.SkillsExperience {
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+
+  width: 455px;
+  height: 54px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #454545;
+
+  padding-left: 57px;
+}
+
+.SpanForSpaces {
+  padding-left: 35px;
+  display: inline-block;
+}
+
+.SkillsUl {
+  font-style: italic;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.skillsLi {
+  width: 447px;
+  height: 48px;
+  border: 1px solid #525557;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 17px;
+  padding-right: 40px;
+}
+
+.RemoveButton {
+  color: red;
+  border: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-left: auto;
+  background-color: #ffffff;
+}
