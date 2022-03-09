@@ -5,9 +5,12 @@
 .FormWrapperDarkHeading {
   width: 716px;
   height: 94px;
+  margin-bottom: 100px;
 }
 
 .FormWrapperLightHeading {
   width: 716px;
   height: 128px;
+  justify-content: center;
+  margin-bottom: 100px;
 }

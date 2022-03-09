@@ -32,16 +32,25 @@
 
 .body {
   height: 0;
+  width: auto;
   overflow: hidden;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
 }
 
 .body.open {
   height: auto;
   display: flex;
+  width: auto;
+  background: white;
 }
 
 .head {
-  width: 100%;
+  width: auto;
   height: 52px;
   background-color: #f05039;
   display: flex;
@@ -53,10 +62,11 @@
 }
 .Main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   margin: 10px auto;
-  width: 90%;
+  width: 70%;
+  height: 100vh;
 }
 
 .applicationsbutton {
@@ -68,9 +78,25 @@
 
 .applicationsSides {
   width: 50%;
-  padding: 20px 100px;
+  padding: 20px 20px 100px 40px;
 }
 
 .rotate {
   transform: rotate(180deg);
+}
+
+.ApplicationsRedHeading {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #fe3b1f;
+}
+
+.PersnoalInformation div {
+  padding-top: 8px;
+}
+
+.PersnoalInformation span {
+  padding-right: 20px;
 }

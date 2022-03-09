@@ -26,9 +26,9 @@ export default function ApplicationForm(props) {
       <div className={`body${open ? " open" : ""}`}>
         <div className="applicationsSides">
           <div className="PersnoalInformation">
-            <h4>Personal Information</h4>
+            <h4 className="ApplicationsRedHeading">Personal Information</h4>
 
-            <div>
+            <div className="">
               <span>First Name</span> <span>{data.first_name}</span>
             </div>
 
@@ -46,7 +46,7 @@ export default function ApplicationForm(props) {
           </div>
 
           <div className="CovidSituation">
-            <h4>Covid Situation</h4>
+            <h4 className="ApplicationsRedHeading">Covid Situation</h4>
 
             <div className="howwouldyoupreferwork">
               <h4>how would you prefer to work?</h4>
@@ -105,16 +105,18 @@ export default function ApplicationForm(props) {
           </div>
 
           <div className="whendidyougetvaccine">
-            <h4>When did you get covid vaccine?</h4>
+            <h4 className="ApplicationsHeading4">
+              When did you get covid vaccine?
+            </h4>
             <FormInput
               value={data.vaccinated_at}
               validationRules={{ disabled: true }}
             />
           </div>
         </div>
-        <div className="applicationsRightSides">
+        <div className="applicationsSides">
           <div className="skillset">
-            <h4>Skillset</h4>
+            <h4 className="ApplicationsRedHeading">Skillset</h4>
             <ul className="SkillsUl">
               {data.skills.map((skill) => (
                 <li key={skill.title} className="skillsLi">
@@ -126,6 +128,7 @@ export default function ApplicationForm(props) {
           </div>
 
           <div className="insights">
+            <h4 className="ApplicationsRedHeading">Insigts</h4>
             <div className="devtalktruefalse">
               <h4>
                 Would you attend Devtalks and maybe also organize your own?

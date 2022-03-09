@@ -1,0 +1,26 @@
+.Applicationsmainbody {
+  background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+.ApplicationsHeading {
+  width: auto;
+  height: 100px;
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.11em;
+  padding-right: 300px;
+
+  color: #ffffff;
+}

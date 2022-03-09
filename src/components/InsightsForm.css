@@ -1,8 +1,8 @@
-.InsightsForm {
+.InsightsForm form {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  row-gap: 40px;
+  row-gap: 10px;
 }
 
 .DevTalkTopicBox {

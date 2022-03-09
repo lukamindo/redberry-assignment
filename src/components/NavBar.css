@@ -21,17 +21,16 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
+  padding-right: 100px;
+  padding-top: 160px;
 }
 
-.NavBarArrow{
-    width: 20px;
-    height: 20px;
+.NavBarArrow {
+  width: 20px;
+  height: 20px;
 }
-
 
 .NavBarMain button {
-    padding: 0 7.5px;
-    border: none;
-    
+  padding: 0 7.5px;
+  border: none;
 }

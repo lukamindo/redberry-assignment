@@ -1,7 +1,7 @@
 import { useOutletContext } from "react-router-dom";
 import FormInput from "./FormInput";
 import RadioInput from "./RadioInput";
-//import "./CovidForm.css"
+import "./CovidForm.css";
 
 export default function CovidForm() {
   const [covidFormData, setCovidFormData] = useOutletContext();

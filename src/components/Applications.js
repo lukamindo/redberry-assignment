@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import ApplicationForm from "./ApplicationForm";
+import "./Applications.css";
+import Heading from "./Heading";
 
 export default function Application() {
   const [applicationsData, setApplicationsData] = useState([]);
@@ -41,7 +43,10 @@ export default function Application() {
   }, []);
 
   return (
-    <>
+    <div className="Applicationsmainbody">
+      <Heading HeadingClass="ApplicationsHeading">
+        {"Submitted Applications"}
+      </Heading>
       {applicationsData.map((application, index) => (
         <ApplicationForm
           key={application.phone}
@@ -49,6 +54,6 @@ export default function Application() {
           application={application}
         />
       ))}
-    </>
+    </div>
   );
 }
